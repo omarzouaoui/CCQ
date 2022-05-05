@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+h6{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: aliceblue;
+}
+button{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+body{
+    background-color: rgb(39, 55, 126);
+    color: aliceblue;
+}
+"Magadishu","Damascus","Hargesia","Nouakchot"
