@@ -67,7 +67,6 @@ var counter=0
 $('#a').click(function(){
     if(`${run.Random[0]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
-        $('#comment').css('color','green')
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
@@ -76,7 +75,6 @@ $('#a').click(function(){
 $('#b').click(function(){
     if(`${run.Random[1]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
-        $('#comment').css('color','green')
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
@@ -85,7 +83,6 @@ $('#b').click(function(){
 $('#c').click(function(){
     if(`${run.Random[2]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
-        $('#comment').css('color','green')
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
@@ -94,7 +91,7 @@ $('#c').click(function(){
 $('#d').click(function(){
     if(`${run.Random[3]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
-        $('#comment').css('color','green')
+   
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
