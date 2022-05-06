@@ -24,4 +24,48 @@ body{
     background-color: rgb(39, 55, 126);
     color: aliceblue;
 }
-"Magadishu","Damascus","Hargesia","Nouakchot"
+#div1{
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+fieldset{
+   width: 400px;
+    height: 300px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(223, 219, 182);
+}
+#a{
+    width: 200px;
+    height: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#b{
+    width: 200px;
+    height: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#c{
+    width: 200px;
+    height: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#d{
+    width: 200px;
+    height: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer{
+    text-align: center;
+}
