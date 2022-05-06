@@ -53,7 +53,10 @@ return array[randomIndex].Random;
 //var x=document.getElementById('a')
 //x=function randomCapital(countries)
 //countries r
+//var arr=[]
+function handler(){
 var run=randomCountries(countries)
+var counter=0
 //rand name
 $('#country').append(run.name)
 //Rund of countries
@@ -62,40 +65,114 @@ $('#b').append(run.Random[1])
 $('#c').append(run.Random[2])
 $('#d').append(run.Random[3])
 
+
 //Click
-var counter=0
 $('#a').click(function(){
     if(`${run.Random[0]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
+        /*$('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     }
 })
+    
 $('#b').click(function(){
     if(`${run.Random[1]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     }
 })
 $('#c').click(function(){
     if(`${run.Random[2]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     }
 })
 $('#d').click(function(){
     if(`${run.Random[3]}`===`${run.Capital}`){
         $('#comment').append('Correct , good job!')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)
+        */
+
    
     } else{
         $('#comment').append('Sorry , but Nope')
         $('#comment').css('color','red')
+       /* $('#country').text('')
+        $('#a').text('')
+        $('#b').text('')
+        $('#c').text('')
+        $('#d').text('')
+        
+        setInterval(handler(),5000)*/
+        
+
     }
 })
-
+}
+handler()
 //reapeted f
