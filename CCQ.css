@@ -1,15 +1,39 @@
 h1{
-    text-align: center;
+  position: relative;
+  font-family: 'Exo';
+  font-size: 9em;
+  margin: 0;
+  transform: skew(-15deg);
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-shadow: 0 0 0.05em rgb(19, 18, 18), 0 0 0.2em #00ccff, 0 0 0.3em #031434;
+
 }
 h6{
-    text-align: center;
+  font-family: 'Mr Dafoe';
+  margin: 0;
+  font-size: 3em;
+  margin-top: -0.6em;
+  color: white;
+  text-shadow: 0 0 0.05em rgb(24, 23, 23), 0 0 0.2em #ff0000, 0 0 0.3em #031434;
+  transform: rotate(-7deg);
 }
 p{
     text-align: center;
     color: aliceblue;
-}
+    font-size: 18px;
+  }
 button{
     text-align: center;
+    background-color:rgb(246, 243, 240) ;
+    width: 150px;
+    height: 30px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+
+
 }
 footer{
     text-align: center;
@@ -21,6 +45,11 @@ img{
 
 }
 body{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
     background-color: rgb(39, 55, 126);
     color: aliceblue;
 }
@@ -36,36 +65,36 @@ fieldset{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(223, 219, 182);
+  background-color: rgb(145, 52, 164);
 }
-#a{
-    width: 200px;
-    height: 30px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#b{
-    width: 200px;
-    height: 30px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#c{
-    width: 200px;
-    height: 30px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-#d{
-    width: 200px;
-    height: 30px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+//
+
 footer{
     text-align: center;
+}
+
+.buttonChoice{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  touch-action: manipulation;
+}
+
+
+
+
+#country{
+  color: rgb(250, 249, 246);
+  text-shadow: 0 0 0.3em rgb(155, 153, 153), 0 0 0.5em #1d414a, 0 0 0.3em #031434;
+  font-size: 24px;
+
+}
+#comment{
+  font-size: 24px;
 }
